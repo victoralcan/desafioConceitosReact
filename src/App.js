@@ -33,7 +33,6 @@ function App() {
     <div>
       <ul data-testid="repository-list">
         <li>
-          Repositório 1
           {repositories.map(repository => (
           <>
             <span>{repository.title}</span>
